@@ -15,4 +15,11 @@ public class SampleController {
 	public String master() {
 		return "master";
 	}
+
+	
+	@RequestMapping("/bugfix.do")
+	public String bugfix() {
+		return "bugfix";
+	}
+
 }
